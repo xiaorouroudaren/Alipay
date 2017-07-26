@@ -1,0 +1,280 @@
+<!doctyp html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>alipay</title>
+	<link type="text/css" rel="stylesheet" href="css/alipay.css"/>
+	<script>
+	window.onload=function(){
+	    var focus_obj=document.getElementsByClassName("question-item");
+		var details_obj=document.getElementsByClassName("question-subnav");
+		for(var i=0;i<focus_obj.length;i++){
+		  focus_obj[i].index=i;
+		  focus_obj[i].onclick=function(){			  			  
+			  		for(var j=0;j<details_obj.length;j++){
+						details_obj[j].style.display="none";
+						focus_obj[j].style="black";										
+					}
+					this.style.background="#f46948";
+					details_obj[this.index].style.display="block";
+			  }
+		}	
+	}
+	</script>
+	</head>
+
+	<body>
+<div id="topnav">
+      <div id="topnav-content">
+    <ul>
+          <li><a href="#">欢迎使用支付宝！</a></li>
+          <li><a href="#">登录-注册</a></li>
+          <li><a href="#">我的支付宝</a></li>
+          <li><a href="#">安全中心</a></li>
+          <li id="service-hall"><a href="#">服务大厅</a></li>
+          <img src="images/Ali-l_07.png">
+        </ul>
+  </div>
+    </div>
+<div id="nav">
+      <div id="nav-content"> <img src="images/logo.png" alt="支付宝"> <span class="hall">服务大厅</span><span class="company"><a href="#">切换到企业版></a></span>
+    <ul class="help">
+          <li id="home-page"> <img src="images/Alipay_13.gif"><span><a href="#">首页</a></span></li>
+          <li><a href="#">常见问题</a></li>
+          <li><a href="#">自助服务</a></li>
+        </ul>
+  </div>
+    </div>
+<div id="header">
+      <div id="header-content">
+    <h3>请选择您遇到的问题：</h3>
+    <div id="question">
+          <ul class="question-nav">
+        <li class="question-item" id="need-attention"><img src="images/Ali-r_28.png"><span><a href="#">需要关注</a></span></li>
+        <li class="question-item"><img src="images/Ali-r_30.png"><span><a href="#">我的账户</a></span></li>
+        <li class="question-item"><img src="images/Ali-r_32.png"><span><a href="#">付款及退款</a></span></li>
+        <li class="question-item"><img src="images/Ali-r_34.png"><span><a href="#">余额宝和花呗</a></span></li>
+        <li class="question-item"><img src="images/Ali-r_36.png"><span><a href="#">活动与红包</a></span></li>
+      </ul>
+          <ul class="question-subnav concern">
+        <li>父母的支付宝入门手册</li>
+        <li>手机校验码没收到</li>
+        <li>退款金额不可用</li>
+        <li>退款去向进度查询</li>
+        <li>银行卡收支明细如何查</li>
+        <li>支付宝密码忘记怎么办</li>
+        <li>登录密码忘记怎么办</li>
+        <li>手机号码如何修改</li>
+        <li>账户因风险无法登录</li>
+        <li>支付宝没有到账</li>
+      </ul>
+          <ul class="question-subnav">
+        <li>支付密码忘记怎么办</li>
+        <li>登录密码忘记怎么办</li>
+        <li>支付密码如何修改</li>
+        <li>登录密码如何修改</li>
+        <li>银行卡收支明细如何查</li>
+        <li>支付宝密码忘记怎么办</li>
+        <li>登录密码忘记怎么办</li>
+        <li>手机号码如何修改</li>
+        <li>账户因风险无法登录</li>
+        <li>支付宝没有到账</li>
+      </ul>
+          <ul class="question-subnav">
+        <li>支付宝提现收费吗</li>
+        <li>交易状态如何查看</li>
+        <li>银行卡收支明细如何查</li>
+        <li>退款去向进度查询</li>
+        <li>银行卡收支明细如何查</li>
+        <li>支付宝密码忘记怎么办</li>
+        <li>登录密码忘记怎么办</li>
+        <li>手机号码如何修改</li>
+        <li>账户因风险无法登录</li>
+        <li>支付宝没有到账</li>
+      </ul>
+          <ul class="question-subnav">
+        <li>余额宝是什么</li>
+        <li>余额宝明细如何查询</li>
+        <li>余额宝收益如何计算</li>
+        <li>余额宝转出到卡流程</li>
+        <li>余额宝转出到帐时间</li>
+        <li>花呗相关问题</li>
+        <li>如何使用花呗购物</li>
+        <li>花呗如何还款</li>
+        <li>账户因风险无法登录</li>
+        <li>支付宝没有到账</li>
+      </ul>
+          <ul class="question-subnav">
+        <li>使用红包遇到问题</li>
+        <li>无法使用红包怎么办</li>
+        <li>如何使用红包</li>
+        <li>红包支付退款怎么办</li>
+        <li>银行卡收支明细如何查</li>
+        <li>支付宝密码忘记怎么办</li>
+        <li>登录密码忘记怎么办</li>
+        <li>手机号码如何修改</li>
+        <li>账户因风险无法登录</li>
+        <li>支付宝没有到账</li>
+      </ul>
+        </div>
+  </div>
+    </div>
+<div id="main">
+      <div class="find-answer">
+    <p class="answer">自己寻找答案：</p>
+    <form>
+          <label>
+        <input type="search" name="search" value="输入问题关键字，如余额宝" />
+      </label>
+          <button type="submit">搜索</button>
+          <span class="evaluate"> <img src="images/Ali-r_116.png">&nbsp;一分钟评价支付宝</span>
+        </form>
+  </div>
+      <div class="abs-right">
+    <ul>
+          <li><img src="images/Ali-l_19.png"><br>
+        举报网站</li>
+          <li><img src="images/Ali-l_29.png"><br>
+        快速挂失</li>
+          <li><img src="images/Ali-l_39.png"><br>
+        联系淘宝</li>
+          <li><img src="images/Ali-l_49.png"><br>
+        口碑帮助</li>
+        </ul>
+  </div>
+      <div id="service-content">
+    <div class="way" id="payment-method">
+          <p><img src="images/Alipay_23.gif"><br>
+        付款<br>
+        方式</p>
+          <ul class="pay-way">
+        <li><a href="#">快捷支付（含卡通)</a></li>
+        <li><a href="#">余额宝相关</a></li>
+        <li><a href="#">蚂蚁花呗</a></li>
+        <li><a href="#">信用卡支付</a></li>
+        <li><a href="#">支付宝账户余额</a></li>
+        <li><a href="#">网上银行</a></li>
+        <li><a href="#">找人代付</a></li>
+        <li><a href="#">更多></a></li>
+      </ul>
+        </div>
+    <div class="way" id="app-center">
+          <p><img src="images/Alipay_25.gif"><br>
+        应用<br>
+        中心</p>
+          <ul class="pay-way">
+        <li><a href="#">缴费</a></li>
+        <li><a href="#">还款</a></li>
+        <li><a href="#">买火车票</a></li>
+        <li><a href="#">买汽车票</a></li>
+        <li><a href="#">转账到银行卡</a></li>
+        <li><a href="#">转账到支付宝账户</a></li>
+        <li><a href="#">保险、理财</a></li>
+        <li><a href="#">更多></a></li>
+      </ul>
+        </div>
+    <div class="way" id="alipay-app">
+          <p><img src="images/Alipay_27.gif"><br>
+        支付宝<br>
+        APP</p>
+          <ul class="pay-way">
+        <li><a href="#">支付宝APP我的应用</a></li>
+        <li><a href="#">支付宝APP付款方式</a></li>
+        <li><a href="#">支付宝APP账户资产</a></li>
+        <li><a href="#">支付宝APP账户设置</a></li>
+        <li><a href="#">支付宝APP服务</a></li>
+        <li><a href="#">支付宝APP账单</a></li>
+        <li><a href="#">支付宝APP安全</a></li>
+        <li><a href="#">介绍与注册</a></li>
+      </ul>
+        </div>
+    <div class="way" id="account-fund">
+          <p><img src="images/Alipay_37.gif"><br>
+        账户<br>
+        资产</p>
+          <ul class="pay-way">
+        <li><a href="#">充值</a></li>
+        <li><a href="#">提现</a></li>
+        <li><a href="#">余额宝</a></li>
+        <li><a href="#">集分宝</a></li>
+        <li><a href="#">交易记录</a></li>
+        <li><a href="#">充值记录</a></li>
+        <li><a href="#">提现记录</a></li>
+        <li><a href="#">红包相关</a></li>
+      </ul>
+        </div>
+    <div class="way" id="account-setting">
+          <p><img src="images/Alipay_39.gif"><br>
+        账户<br>
+        设置</p>
+          <ul class="pay-way">
+        <li><a href="#">手机服务</a></li>
+        <li><a href="#">账户密码</a></li>
+        <li><a href="#">实名认证</a></li>
+        <li><a href="#">账户登录名</a></li>
+        <li><a href="#">账户信息修改</a></li>
+        <li><a href="#">账户信息管理</a></li>
+        <li><a href="#">联系人</a></li>
+        <li><a href="#">更多></a></li>
+      </ul>
+        </div>
+    <div class="way" id="safe-center">
+          <p><img src="images/Alipay_41.gif"><br>
+        安全<br>
+        中心</p>
+          <ul class="pay-way">
+        <li><a href="#">手机安全设置</a></li>
+        <li><a href="#">安全控件</a></li>
+        <li><a href="#">安全保护问题</a></li>
+        <li><a href="#">手机安全设置</a></li>
+        <li><a href="#">安全策略</a></li>
+        <li><a href="#">支付盾</a></li>
+        <li><a href="#">更多></a></li>
+      </ul>
+        </div>
+    <p class="more-questions">更多问题分类></p>
+  </div>
+      <div class="self-service">
+    <p>常用自助服务：</p>
+    <ul>
+          <li><img src="images/ali_41.png"><span class="Service-aspect"><a href="#">激活账户</a></span></li>
+          <li><img src="images/ali_43.png"><span class="Service-aspect"><a href="#">修改邮箱名</a></span></li>
+          <li><img src="images/ali_45.png"><span class="Service-aspect"><a href="#">重置登录密码</a></span></li>
+          <li><img src="images/ali_47.png"><span class="Service-aspect"><a href="#">重置支付密码</a></span></li>
+          <li><img src="images/ali_49.png"><span class="Service-aspect"><a href="#">取消数字认证</a></span></li>
+          <li id="alter"><img src="images/ali_51.png"><span class="Service-aspect"><a href="#">修改手机号码</a></span></li>
+        </ul>
+  </div>
+      <!--联系我们：-->
+      <article class="contact">
+    <h4>联系我们：</h4>
+    <!--1-->
+    <section class="custom-service">
+          <h3>在线客服</h3>
+          <span>适用人群：</span> <span>喜欢使用在线交流的用户</span>
+          <button id="immediate-use">立即使用</button>
+        </section>
+    <!--2-->
+    <section class="custom-service">
+          <h3>热线电话-繁忙</h3>
+          <span>贴心的服务热线</span> <span>主要服务时间：8:00-24:00</span> <span id="call-guide"><a href="#">查看电话指引>></a></span> </section>
+    <!--3-->
+    <section class="custom-service">
+          <h3>无线服务</h3>
+          <span>用手机支付宝我的客服</span> <span>享受随身携带的客服服务</span>
+          <button>查看详情</button>
+        </section>
+    <!--4-->
+    <section class="custom-service" id="advise">
+          <h3>在线客服</h3>
+          <span>适用人群：</span> <span>喜欢使用在线交流的用户</span>
+          <button>立即使用</button>
+        </section>
+  </article>
+    </div>
+<hr>
+<div id="footer"><span><a href="#">诚征英才</a></span>|<span><a href="#">联系我们</a></span>|<span><a href="#">international&nbsp;Business</a></span>
+      <p>ICP证：沪B2-20150087</p>
+    </div>
+</body>
+</html>

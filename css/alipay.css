@@ -1,0 +1,428 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0
+}
+body {
+	background-color: #F4F4F4;
+}
+a {
+	text-decoration: none;
+}
+/*上方导航样式*/
+#topnav {
+	width: 100%;
+	height: 34px;
+	background-color: #3D4749;
+}
+#topnav-content {
+	margin: auto;
+	width: 1240px;
+	height: 34px;
+}
+#topnav-content ul {
+	margin-top: 6px;
+	float: right;
+}
+#topnav-content li {
+	display: inline-block;
+	height: 12px;
+	line-height: 12px;
+	border-right: 1px solid #FFF;
+	padding-right: 10px;
+	font-family: 微软雅黑;
+	font-size: 14px;
+}
+#topnav-content a {
+	text-decoration: none;
+	color: #FFF;
+}
+#topnav-content img {
+	float: right;
+}
+#topnav-content #service-hall {
+	border-right-width:0px;
+}
+/*主导航样式*/
+#nav {
+	width: 100%;
+	height: 95px;
+}
+#nav-content {
+	margin: auto;
+	width: 1240px;
+	height: 95px;
+}
+/*主导航左边样式*/
+.hall {
+	display: inline-block;
+	height: 38px;
+	line-height: 38px;
+	font-size: 30px;
+	margin-top: 25px;
+	padding-left: 10px;
+	color: #565656;
+	border-left: 2px solid #666;
+}
+.company {
+	margin-left: 21px;
+	font-size: 14px;
+	color: #0388D3;
+}
+.company a {
+	color: #0388D3;
+}
+#nav-content img {
+	float: left;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+/*主导航右边样式*/
+.help {
+	height: 95px;
+	list-style-type: none;
+	float: right;
+	margin-top: 40px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+.help li {
+	display: inline-block;
+	height: 27px;
+	margin-left: 26px;
+}
+.help a{
+	color:#333;
+	}
+#home-page{
+	margin-left: 0;
+	height: 27px;
+}
+#home-page a{
+	color: #E8915D;
+}
+#home-page img {
+	margin-top: -30px;
+}
+/*头部样式*/
+#header {
+	width: 100%;
+	height: 303px;
+	background-color: #3B4E5F;
+}
+#header-content {
+	margin: auto;
+	width: 1240px;
+	height: 303px;
+}
+#header-content h3 {
+	padding-top: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+#question {
+	width: 1240px;
+	height: 210px;
+}
+.question-nav {
+	list-style-type: none;
+}
+.question-nav li {
+	display: inline-block;
+	width: 163px;
+	font-size: 16px;
+	line-height: 58px;
+	height: 58px;
+	font-weight: bold;
+	background-color: #DFE9F2;
+	border-radius: 5px 5px 0 0;
+}
+.question-nav a {
+	color: #96A0AA;
+}
+.question-nav a:hover {
+	color: #fff;
+}
+.question-nav img {
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+/*头部导航事件样式*/
+.question-subnav {
+	width: 1210px;
+	height: 115px;
+	list-style-type:square;
+	border-bottom: 3px solid #CCCCCC;
+	border-top: 3px solid #F46948;
+	padding-left: 30px;
+	padding-top: 30px;
+	background-color: #fff;
+	display: none;
+}
+.question-subnav li {
+	width: 240px;
+	height: 50px;
+	float: left;
+	padding-left: 0px;
+}
+.concern {
+	display: block;
+}
+/*右边固定导航样式*/
+.abs-right {
+	width: 68px;
+	height: 285px;
+	color: #fff;
+	text-align: center;
+	background-color: #4A5863;
+	position: fixed;
+	top: 190px;
+	right: 0;
+}
+.abs-right ul {
+	list-style-type: none;
+}
+.abs-right li {
+	height: 65px;
+	margin-top: 6px;
+	border-bottom: 1px solid #fff;
+}
+/*中间部分样式*/
+#main {
+	margin: auto;
+	width: 1240px;
+	height: auto;
+	margin-bottom: 81px;
+}
+label input {
+	float: left;
+	width: 630px;
+	height: 50px;
+	margin-right: 5px;
+	border: 3px solid #CCC;
+	color:#666;
+	font-size:20px;
+	padding-left:10px;
+}
+.find-answer p {
+	font-size: 26px;
+	margin-top: 34px;
+	margin-bottom: 18px;
+}
+.find-answer button {
+	font-size: 26px;
+	width: 150px;
+	height: 51px;
+	background-color: #F4F4F4;
+	border: 1px solid #B2B2B2;
+}
+.evaluate {
+	float: right;
+	margin-top: 20px;
+}
+#service-content {
+	width: 1240px;
+	height: 400px;
+}
+.way {
+	float: left;
+	margin-right: 27px;
+	margin-top: 20px;
+	border: 2px solid #71a4d3;
+	width: 390px;
+	height: 143px;
+}
+.way p {
+	float: left;
+	width: 70px;
+	height: 123px;
+	text-align: center;
+	background-color: #71a4d3;
+	font-size: 20px;
+	color: #FFF;
+	padding-top: 20px;
+}
+.pay-way {
+	list-style-type: none;
+	float: left;
+	width: 320px;
+	height: 143px;
+	background-color: #fff;
+}
+.pay-way li {
+	width: 140px;
+	padding-left: 10px;
+	margin-left: 5px;
+	margin-top: 12px;
+	font-size: 14px;
+	
+	display: inline-block;
+}
+.pay-way a{
+	color: #71a4d3;
+}
+.pay-way a:hover{
+	color:#F60;
+}
+#app-center {
+	border: 2px solid #7FC5AD;
+}
+#app-center p {
+	background-color: #7FC5AD;
+}
+#app-center li {
+	color: #7FC5AD;
+}
+#alipay-app {
+	border: 2px solid #E7BA81;
+	margin-right: 0;
+}
+#alipay-app p {
+	background-color: #E7BA81;
+}
+#alipay-app li {
+	color: #E7BA81;
+}
+#account-fund {
+	border: 2px solid #CB8C7D;
+}
+#account-fund p {
+	background-color: #CB8C7D;
+}
+#account-fund li {
+	color: #CB8C7D;
+}
+#safe-center {
+	border: 2px solid #7FC5AD;
+	margin-right: 0;
+}
+#safe-center p {
+	background-color: #7FC5AD;
+}
+#safe-center li {
+	color: #7FC5AD;
+}
+.more-questions{
+	float:right;
+	margin-top:20px;
+	font-size:14px;
+}
+/*常用自助服务样式*/
+.self-service {
+	width: 1240px;
+	height: 154px;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	font-family: "微软雅黑";
+}
+.self-service p {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 18px;
+}
+.self-service ul {
+	list-style-type: none;
+	margin-left: 5px;
+}
+.self-service img {
+	float: left;
+	margin-right: 10px;
+}
+.self-service li {
+	display: inline-block;
+	width: 209px;
+	height: 42px;
+	color: #0289D1;
+	line-height: 42px;
+}
+.self-service a {
+	color: #0289D1;
+}
+#alter {
+	width: 150px;
+}
+/*联系我们样式*/
+.contact {
+	width: 1240px;
+	height: 291px;
+	color: #5A5A5A;
+}
+.custom-service {
+	float: left;
+	margin-right: 28px;
+	list-style-type: none;
+	width: 289px;
+	height: 219px;
+	background-color: #FFF;
+}
+#advise {
+	margin-right: 0;
+}
+.contact h4 {
+	padding-top: 25px;
+	margin-bottom: 25px;
+}
+.contact h3 {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 25px;
+}
+.contact span {
+	font-family: "微软雅黑";
+	display: block;
+	height: 30px;
+	margin-left: 20px;
+	font-size: 16px;
+}
+.contact button {
+	width: 121px;
+	height: 45px;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #585A5B;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	border: 1px solid #CFCFCF;
+	border-radius:3px;
+	background-color: #F4F4F4;
+}
+#immediate-use {
+	background-color: #FFA200;
+	border: 1px solid #FA9002;
+	color: #FFF;
+}
+#call-guide {
+	font-size: 12px;
+	margin-top: 15px;
+}
+#call-guide a {
+	color: #0289D1;
+}
+hr {
+	color: #CCCCCC;
+}
+/*底部样式*/
+#footer {
+	margin: auto;
+	width: 1240px;
+	text-align: center;
+	height: 127px;
+	color: #808080;
+	font-size:14px;
+	margin-top: 20px;
+}
+#footer p {
+	margin-top: 10px;
+}
+#footer span {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#footer a {
+	color: #0289CD;
+}
